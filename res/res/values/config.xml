@@ -27,7 +27,7 @@
            32 - Camera
         For example, a device with Home, Back and Menu keys would set this
         config to 7. -->
-    <integer name="config_deviceHardwareKeys">0</integer>
+    <integer name="config_deviceHardwareKeys">7</integer>
 
     <string name="config_externalSystemServer">org.slim.service.SlimSystemServer</string>
 
@@ -49,7 +49,7 @@
 
     <integer name="config_buttonBrightnessSettingDefault">255</integer>
     <integer name="config_keyboardBrightnessSettingDefault">0</integer>
-    <bool name="config_deviceHasVariableButtonBrightness">false</bool>
+    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
 
     <!-- The list of vendor package signatures that should also be considered
          platform signatures, specifically for use on devices with a vendor partition. -->
